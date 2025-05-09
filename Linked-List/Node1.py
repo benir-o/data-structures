@@ -1,14 +1,14 @@
 class Node:
     def __init__(self, data):
         self.data = data      
-        self.next = None      
+        self.next = None     
 
 
 class LinkedList:
     def __init__(self):
-        self.head = None      
+        self.head = None     
 
-    
+   
     def append(self, data):
         new_node = Node(data)  
         
@@ -16,30 +16,30 @@ class LinkedList:
             self.head = new_node
             return
         
-        
+    
         last = self.head
         while last.next:
             last = last.next
         
         last.next = new_node
 
-    
+   
     def print_list(self):
         current = self.head
         while current:
-            print(current.data, end=" > ")
+            print(current.data, end=" -> ")
             current = current.next
         print("None")
 
+  
+if __name__ == "__main__":   
 
-if __name__ == "  main  ":
     ll = LinkedList()         
-
-    
-    ll.append(5)
+   
     ll.append(10)
-    ll.append(15)
+    ll.append(20)
+    ll.append(30)
 
-    
+
     print("Linked List:")
     ll.print_list()
