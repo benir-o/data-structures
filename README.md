@@ -10,7 +10,7 @@ Class Group Assignment.
 **Name**: Odeny, Benir Omenda
 **Admission Number**: 192559
 
-**Name**: Ikube, Brian Mathara
+**Name**: Ikubu, Brian Mathara
 **Admission Number**: 189736
 
 # Code-explanaion:
