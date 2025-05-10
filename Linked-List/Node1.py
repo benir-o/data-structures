@@ -31,7 +31,7 @@ class LinkedList:
             current = current.next
         print("None")
 
-  
+#Nice work
 if __name__ == "__main__":   
 
     ll = LinkedList()         
