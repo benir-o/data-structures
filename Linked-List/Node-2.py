@@ -3,7 +3,7 @@ class Node:
         self.data=data
         self.next=None
 
-
+# Initial commit
 class Linkedlist:
     def __init__(self):
         self.head=None
